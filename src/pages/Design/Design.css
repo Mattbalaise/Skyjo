@@ -1,0 +1,19 @@
+.design-page {
+  padding: 2rem;
+}
+
+.design-description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+  perspective: 1000px;
+}
+
