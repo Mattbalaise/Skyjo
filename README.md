@@ -1,30 +1,54 @@
 # Skyjo
 
-Projet React avec Vite et React Router.
+Un jeu de cartes Skyjo développé en web.
 
-## Installation
+## Statut du projet
 
+Ce projet est actuellement **en développement**.
+
+### Fonctionnalités actuelles
+- Design 3D des cartes 
+- Design 3D de la boîte de jeu 
+
+### Prévisions futures
+- Hébergement sur AWS
+- Logique de jeu complète
+- Fonctionnalités multijoueurs
+
+## Installation et lancement
+
+### Prérequis
+- Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
+- Git installé sur votre machine
+- Un serveur local (optionnel mais recommandé)
+
+### Étape 1 : Cloner le projet
 ```bash
-npm install
+git clone https://github.com/Mattbalaise/Skyjo.git
+cd Skyjo
 ```
 
-## Développement
+### Étape 2 : Lancer le projet
 
+**Avec Node.js (si vous avez Node.js installé) :**
 ```bash
+# Installer http-server globalement (une seule fois)
+npm install
+
+# Lancer le serveur
 npm run dev
 ```
 
-## Build
-
-```bash
-npm run build
+### Étape 3 : Accéder au jeu
+Ouvrez votre navigateur et accédez à :
+```
+http://localhost:8000
 ```
 
-## Routes
+## À propos
 
-- `/` - Page d'accueil
-- `/a-propos` - À propos
-- `/jouer` - Jouer
-- `/design` - Design
-- `/regles` - Règles
+Skyjo est un jeu de cartes populaire que nous recréons en version web pour permettre à tout le monde d'y jouer en ligne.
 
+---
+
+*Projet en cours de développement par [Mattbalaise](https://github.com/Mattbalaise)*
